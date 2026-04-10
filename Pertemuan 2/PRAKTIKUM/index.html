@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 2 - Dasar CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--- selector sederhana --->
+    <p> Teks style biasa </p>
+    <p id="paraf_id"> Teks style dengan id </p>
+    <p class="paraf_class"> Teks style dengan class </p>
+
+    <div>
+        <p class="paraf_class"> Teks dengan selector kombinator </p>
+    </div>
+
+    <!--- Inline CSS --->
+    <p style ="color : purple; font-size: 24px;"> Ini teks dengan menggunakan Inline </p>
+
+    <!--- Box --->
+    <div>
+        <p class="box"> Ini adalah teks box </p>
+
+    <!-- ===================== -->
+    <!-- 6. LINK -->
+    <!-- ===================== -->
+    <h2>
+      <a href="https://elearning.ibik.ac.id/">E-learning IBI</a>
+
+      <a target="_self" href="https://www.ibik.ac.id/">
+        Website IBIK
+      </a>
+
+      <a target="_blank" href="https://siakes.ibik.ac.id/login.php">
+        SIAKES IBI
+      </a>
+    </h2>
+
+    <!-- ===================== -->
+    <!-- 7. LIST -->
+    <!-- ===================== -->
+    <h3>Contoh List</h3>
+    <ul class="list-style">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <br></br>
+    <!-- ===================== -->
+    <!-- 8. Container -->
+    <!-- ===================== -->
+        <div style="width: 550px; height: 180px; border: 1px solid black; padding: 20px;">
+    <div class="form-group">        
+        <label for="npm" style="display: block; margin-bottom: 5px;">NPM:</label>
+        <input type="text"id="npm" name="npm" required style="width: 100%; padding: 5px;">
+    </div>
+    <div class="form-group">        
+        <label for="nama" style="display: block; margin-bottom: 5px;">Nama:</label>
+        <input type="text" id="nama" name="nama" required style="width: 100%; padding: 5px;">
+    </div>
+    <div class="form-group">        
+        <label for="kelas" style="display: block; margin-bottom: 5px;">Kelas:</label>
+        <input type="text" id="kelas" name="kelas" required style="width: 100%; padding: 5px;">
+
+</body>
+</html>

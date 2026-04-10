@@ -1,0 +1,44 @@
+/*--- selector sederhana ---*/
+p {
+    color : blue;
+    text-align : center ;
+}
+
+#paraf_id {
+    color : pink;
+
+
+}
+
+.paraf_class {
+    color : blue;
+    font-size : 24px;
+
+}
+
+div p {
+    color : yellow;
+    background-color : gray;
+}
+
+.box {
+    margin : 20px;
+    padding : 10px;
+    border : 2px black;
+    border-radius : 2px;
+    background-color : blanchedalmond;
+    color : red;
+    text-align: center;
+    font-size:  20px;
+    font-weight: bold;
+}
+
+.list-style {
+  list-style-type: square;
+}
+
+.form-group {
+    color : red;
+    font-size:  15px;
+    font-weight: bold;
+}
